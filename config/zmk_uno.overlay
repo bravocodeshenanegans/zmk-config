@@ -1,0 +1,3 @@
+/ {
+    /delete-node/ &arduino_i2c;
+};
