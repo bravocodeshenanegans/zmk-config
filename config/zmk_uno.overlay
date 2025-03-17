@@ -1,4 +1,7 @@
-&keyboard {
-    // Example: Configure a reset pin (adjust for your shield)
-    reset-gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;
+&zmk {
+    // Bluetooth configuration
+    bt {
+        device-name = "ZMK Keyboard";  // Custom name for your keyboard
+        passkey = "123456";            // Temporary passkey for pairing
+    };
 };
